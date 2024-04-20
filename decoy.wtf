@@ -118,5 +118,4 @@ getgenv().Decoy = {
         },
     },
 }
---
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vv99012/decoy/main/decoy.wtf"))();
