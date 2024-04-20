@@ -1,0 +1,122 @@
+getgenv().Lytix = {
+    ['Preload'] = {
+        ['Key'] = 'LuarmorKey', -- // Replace with luarmor key
+        ['UnlockFPS'] = false,
+        ['Intro'] = false
+    },
+    ['Silent'] = {
+        ['Enabled'] = true,
+        ['KeyBind'] = {
+            ['Enabled'] = false,
+            ['KeyBind'] = 't',
+            ['Notification'] = true,
+        },
+        ['HitChance'] = 100,
+        ['Prediction'] = {
+            ['Enabled'] = true,
+            ['PingPrediction'] = false, 
+            ['Prediction'] = 0.135,
+        },
+        ['HitPart'] = {
+            ['NearestPoint'] = true,
+            ['HitPart'] = 'HumanoidRootPart',
+        },
+    },
+    ['CamLock'] = {
+        ['Enabled'] = true,
+        ['ThirdPerson'] = true,
+        ['FirstPerson'] = true,
+        ['Safety'] = {
+            ['Reloading'] = false,
+            ['Typing'] = false,
+        },
+        ['KeyBind'] = {
+            ['Hold'] = false,
+            ['Mode'] = 'KeyBind', -- // "KeyBind" or "Mouse"
+            ['KeyBind'] = 'c',
+            ['MouseBind'] = Enum.UserInputType.MouseButton2,
+        },
+        ['Prediction'] = {Enabled = true, Prediction = 0.119},
+        ['Style'] = {First = 'Elastic', Second = 'Sine'},
+        ['Smoothness'] = {Enabled= true, Amount = 0.019, AirShot = 0.021,},
+        ['Shake'] = {Enabled = false, X = 8, Y = 6, Z = 7},
+        ['HitPart'] = {
+            ['NearestPoint'] = true,
+            ['AirShot'] = true,
+            ['Part'] = 'HumanoidRootPart',
+            ['AirPart'] = 'HumanoidRootPart',
+        },
+    },
+    ['FOV'] = {
+        ['SilentAim'] = {
+            ['Visible'] = false,
+            ['Use_Radius'] = true,
+            ['Radius'] = 6,
+            ['Model'] = 'Circle'
+        },
+        ['CamLock'] = {
+            ['Visible'] = false,
+            ['Use_Radius'] = false,
+            ['Radius'] = 100,
+            ['Model'] = 'Circle'
+        },
+    },
+    ['Adjustment'] = {
+        ['Checks'] = {
+            ['Resolver'] = true,
+            ['Anti_Aim_Viewer'] = true,
+            ['Wall'] = true,
+            ['Crew'] = false,
+            ['Knocked'] = true,
+            ['AntiGroundShots'] = true,
+        },
+        ['Gun_Fov'] = {
+            ['Enabled'] = false,
+            ['DoubleBarrel'] = 22.5,
+            ['Revolver'] = 27.5,
+            ['Shotgun'] = 35,
+            ['TacticalShotgun'] = 35,
+            ['Smg'] = 25,
+            ['Silencer'] = 32.5
+        },
+        ['Macro'] = {
+            ['Enabled'] = false,
+            ['Hold_Key'] = false,
+            ['KeyBind'] = Enum.KeyCode.X,
+            ['Mode'] = '1' -- // 1 = ioio 2 = scroll
+        },
+        ['TriggerBot'] = {
+            ['Enabled'] = false,
+            ['Delay'] = 0.1,
+            ['KeyBinds'] = {Enabled = true, Notifications = true, KeyBind = 't'},
+        },
+        ['Memory'] = {
+            ['Enable'] = true,
+            ['Start'] = 1471,
+            ['End'] = 1484,
+            ['Speed'] = 1,
+        },
+        ['Animation'] = { -- // keybind = use animation
+            ['Lay'] = false,
+            ['LayKey'] = Enum.KeyCode.T,
+            ['Greet'] = true,
+            ['GreetKey'] = Enum.KeyCode.G,
+            ['Speed'] = false,
+            ['SpeedKey'] = Enum.KeyCode.N,
+            ['Sturdy'] = false,
+            ['SturdyKey'] = Enum.KeyCode.H,
+            ['Griddy'] = false,
+            ['GriddyKey'] = Enum.KeyCode.G,
+        },
+        ['Chat'] = {
+            ['Enabled'] = true, -- // example !fov 120
+            ['SilentAim_Fov_Size'] = '!fov',
+            ['SilentAim_Prediction'] = '!Prediction',
+            ['CamLock_fov_Size'] = '/fov',
+            ['CamLock_Smoothness'] = '/Smoothness',
+            ['CamLock_PreDiction'] = '/ped',
+        },
+    },
+}
+--
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vv99012/decoy/main/decoy.wtf"))();
