@@ -1,4 +1,4 @@
-getgenv().Lytix = {
+getgenv().Decoy = {
     ['Preload'] = {
         ['Key'] = 'LuarmorKey', -- // Replace with luarmor key
         ['UnlockFPS'] = false,
