@@ -1,6 +1,6 @@
 getgenv().Decoy = {
     ['Preload'] = {
-        ['Key'] = 'LuarmorKey', -- // Replace with luarmor key
+        ['Key'] = 'xDsOWFPtMUSyHLksHYPbFruMxbkkDIzW', -- // Replace with luarmor key
         ['UnlockFPS'] = false,
         ['Intro'] = false
     },
@@ -118,4 +118,5 @@ getgenv().Decoy = {
         },
     },
 }
+--
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vv99012/decoy/main/decoy.wtf"))();
