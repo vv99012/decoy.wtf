@@ -1,6 +1,6 @@
 getgenv().Decoy = {
     ['Preload'] = {
-        ['Key'] = 'xDsOWFPtMUSyHLksHYPbFruMxbkkDIzW', -- // Replace with luarmor key
+        ['Key'] = 'KEY', -- // Replace with luarmor key
         ['UnlockFPS'] = false,
     },
     ['Silent'] = {
